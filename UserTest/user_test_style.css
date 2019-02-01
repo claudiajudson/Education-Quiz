@@ -1,0 +1,51 @@
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.select_trainer_div {
+    width: 100%;
+    height: 90%;
+}
+
+
+.select_trainer_container
+{ height: auto;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #d9d5e7;
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    border: 3px solid #0067da;
+    z-index: 11;}
+
+
+
+
+
+
+.test_box {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.question_box {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+
+}

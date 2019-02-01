@@ -1,0 +1,102 @@
+body{
+    background: #80ced6; /* Selecting background colour */
+    text-align:center;
+    margin: 0;
+}
+
+ul.navigation_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.navigation_bar li {float: left;}
+
+ul.navigation_bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navigation_bar li a:hover:not(.active) {background-color: #111;}
+
+ul.navigation_bar li a.active {background-color: #4CAF50;}
+
+ul.navigation_bar li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.navigation_bar li.right,
+    ul.navigation_bar li {float: none;}
+}
+
+
+
+
+
+
+#home_header /* Login header (id) */
+{
+    font-family: Verdana, Geneva, sans-serif; /* Choosing the font for the page */
+}
+
+#circle_images_container{
+    margin: 0 auto 10px;
+    width: 100px;
+    display: block;
+}
+#circle_images{
+    border-radius:100%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ffffff;
+    text-align:center;"
+}
+
+
+
+
+.form_area {
+    width: 100%;
+    height: 90%;
+}
+
+
+.form_container
+{ height: auto;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #d9d5e7;
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    border: 3px solid #0067da;
+    z-index: 11;}
+
+
+
+
+
+/* Footer used for copyright */
+.footer {
+
+    font-size: 10px; /* Footer font size */
+    color: #ffffff; /* Footer text colour */
+    clear: both;
+    display: block;
+    letter-spacing: 3px;
+    border: 1px solid #fff;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 220px;
+    margin: auto;
+
+}

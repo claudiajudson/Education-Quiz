@@ -1,0 +1,64 @@
+body /* body tag */
+{
+    background: #000000; /* Selecting background colour */
+    padding: 80px; /* This is the distance from the top of the page */
+    text-align: center; /* Aligning the text on the page to the centre (sign in button) */
+}
+
+
+.login_area /* login div tag */
+{
+    width: 100%; /* Takes up the full width of the page */
+    height: 80%; /* Takes 80% of the width of the page (this works for the footer) */
+}
+
+
+#login /* Centres the username and password box */
+{
+    margin: auto;
+}
+
+#login_form_header /* Login header (id) */
+{
+    font-family: Verdana, Geneva, sans-serif; /* Choosing the font for the page */
+}
+
+
+.login_box /* Login container div tag */
+{
+    height: auto;
+    width: 400px;
+    margin-left: auto; /* Used to centre the container */
+    margin-right: auto; /* Used to centre the container */
+    margin-top: 20px; /* Used for the distance from the top of the page */
+    padding-bottom: 10px; /* Used length on the bottom of the container */
+    background: #d9d5e7; /* Background colour for the container */
+    -webkit-border-radius: 10px; /* Adds the curvature effect to the box */
+    border: 3px solid #ffffff; /* This for the border, making it 3px wide, solid and white */
+}
+
+
+#login_img
+{
+    border-radius: 100%; /* This makes the image a circle */
+    width: 100px; /* this sets the width to 100 px */
+    height: 100px; /* this sets the height to 100 px */
+    border: 2px solid #000000; /* this sets the border of the image to 2px solid and to black */
+    margin-bottom: 10px; /* Leaves 10px under the image */
+}
+
+
+
+.footer /* Footer used for copyright */
+{
+    font-size: 10px; /* Footer font size */
+    color: #ffffff; /* Footer text colour */
+    clear: both; /* Footer text colour */
+    display: block; /* Displays it as a block element, takes up the whole width */
+    letter-spacing: 3px; /* Spacing between letters */
+    border: 1px solid #fff; /* Border of box (1px wide, solid and white) */
+    padding: 5px; /* Padding around the text */
+    width: 220px; /* Width of the footer box*/
+    margin: auto; /* Placing it in the middle of the page */
+
+}

@@ -1,0 +1,34 @@
+body {
+    background: #80ced6; /* Selecting background colour */
+    padding: 75px;
+    text-align: center;
+}
+
+.q_and_a_box {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.question {
+    text-align: center;
+
+}
+
+
+/* Footer used for copyright */
+.footer {
+
+    font-size: 10px; /* Footer font size */
+    color: #ffffff; /* Footer text colour */
+    clear: both;
+    display: block;
+    letter-spacing: 3px;
+    border: 1px solid #fff;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 220px;
+    margin: auto;
+
+}
